@@ -1,0 +1,96 @@
+.sayfabilgi{
+    padding: 0px;
+    background: #003983;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 200px;
+}
+
+.baslik{
+    
+    color: aliceblue;
+    font-weight:bold;
+    font-size: 45px;
+    margin: 5rem 0px 5rem 0px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url(../img/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg);
+  
+    /* Set a specific height */
+   
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.iletisim .container{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.iletisim .harita iframe{
+     width: 100%;
+     min-height: 350px;
+     border-top-left-radius: 30px ;
+     border-top-right-radius: 30px ;
+}
+
+.bilgi{
+    width: 100%;
+}
+
+.bilgi p{
+    display: flex;
+    justify-content: center;
+}
+
+.bilgi h4{
+    display: flex;
+    justify-content: center;
+}
+
+.bilgi .adres i{
+    color: #003983;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bilgi .eposta i{
+    color: #003983;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bilgi .telefon i{
+    color: #003983;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hizmetlerimiz .sayfa-baslik p{
+    background-color: #2eca6a;
+    color: aqua;
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+
+}

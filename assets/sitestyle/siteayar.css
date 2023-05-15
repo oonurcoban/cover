@@ -1,0 +1,331 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.tester:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
+
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#Sitebilgi {
+  background: #152659;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header {
+  transition: all 0.5s;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.header.sticked {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand .logom {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/*--------------------------------------------------------------
+  # Slider Alt Efekt
+  --------------------------------------------------------------*/
+.custom-shape-divider-bottom-1666127751 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1666127751 svg {
+  position: relative;
+  display: block;
+  width: calc(1800% + 1.3px);
+  height: 98px;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1666127751 .shape-fill {
+  fill: #fff;
+}
+
+/*--------------------------------------------------------------
+  # Slider Alt 
+  --------------------------------------------------------------*/
+.carousel-caption {
+  z-index: 10;
+  margin-bottom: 10rem;
+  margin-top: auto;
+}
+
+.ccap {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-item img {
+
+
+  max-height: 55rem;
+  background-size: auto;
+}
+
+.carousel-item .carousel-caption h1 {
+  color: #152659;
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.carousel-item .carousel-caption .btn-light {
+  background-color: #74112a;
+  color: #FFFFFF;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+
+  height: 75px;
+  width: 75px;
+}
+
+/*--------------------------------------------------------------
+# 768px alanı
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 998px) {
+
+  .carousel-caption {
+    margin-bottom: 0rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
+
+  .carousel-item .carousel-caption h1 {
+    color: #152659;
+    font-size: 35px;
+    font-weight: 800;
+  }
+
+  .navbar-toggler {
+    background: #003983;
+    margin-right: 0px;
+  }
+
+  .mark .marketingsection {
+    border-bottom: 5px;
+    border-bottom: red;
+
+  }
+
+  .gradient-boyut h3 {
+    margin-top: 5rem;
+  }
+
+  .gradient-boyut img {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gradient-boyut h3 {
+    margin-top: 5rem;
+  }
+
+  .gradient-boyut img {
+    margin-bottom: 5rem;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Laptop alanı
+--------------------------------------------------------------*/
+
+.gradient {
+  background: linear-gradient(120deg, #003983, #152659);
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+  color: #fff;
+}
+
+.portfolio-block {
+  padding-bottom: 60px;
+  padding-top: 60px
+}
+
+.gradient-boyut h3 {
+  margin-bottom: 3rem;
+}
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.clients img {
+  width: 50%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.services .icon-box {
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  background: #FFFFFF;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #1977cc;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+
+.services .icon-box .icon i {
+  color: #fff;
+  font-size: 38px;
+
+}
+
+.services .icon-box h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.services .icon-box h4 a {
+  color: #2c4964;
+}
+
+.services .icon-box p {
+
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  background: #1977cc;
+  border-color: #1977cc;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #1977cc;
+}
+
+.services .icon-box:hover .icon::before {
+  background: #3291e6;
+}
+
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
+  color: #fff;
+
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2c4964;
+}
+
+/*--------------------------------------------------------------
+# Sayfa Header
+--------------------------------------------------------------*/
+
+.sayfabilgi {
+  z-index: -1;
+  padding: 0px;
+  opacity: 0.7;
+  color: #000;
+  background-image: url(/assets/img/vlad-deep-mCqi3MljC4E-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 25rem;
+  border-radius: 0 0 40% 40%;
+  -webkit-border-radius: 0 0 40% 40%;
+  -moz-border-radius: 0 0 40% 40%;
+  -ms-border-radius: 0 0 40% 40%;
+  -o-border-radius: 0 0 40% 40%;
+}
